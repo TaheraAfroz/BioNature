@@ -1,0 +1,718 @@
+.aboutus-area {
+  background-image: url();
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+}
+
+/*-- aboutus Image --*/
+.aboutus-image {
+  margin-right: 52px;
+  width: 318px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .aboutus-image {
+    margin-right: 35px;
+    width: 345px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .aboutus-image {
+    margin-bottom: 30px;
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .aboutus-image {
+    margin-bottom: 30px;
+    margin-right: 0;
+    float: none;
+    width: auto;
+  }
+}
+
+
+
+.aboutus-image img {
+  width: 100%;
+}
+
+/*-- aboutus Content --*/
+.aboutus-content h1 {
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 40px;
+  margin-bottom: 2px;
+  padding-left: 15px;
+
+}
+@media only screen and (max-width: 479px) {
+  .aboutus-content h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+
+.aboutus-content h1 span {
+  color: #71b100;
+}
+
+.aboutus-content h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #9b9b9b;
+  margin-bottom: 23px;
+  padding: 15px;
+}
+
+.aboutus-content p {
+  font-size: 16px;
+  line-height: 27px;
+  padding: 15px;
+}
+
+/*-- counter --*/
+.counter {
+  border: 1px solid #eeeeee;
+  margin-top: 32px;
+  float: left;
+  width: 100%;
+}
+
+.counter .single-counter {
+  float: left;
+  width: 25%;
+  padding: 28px 15px 28px;
+}
+
+@media only screen and (max-width: 767px) {
+  .counter .single-counter {
+    width: 50%;
+  }
+
+  .counter .single-counter:nth-child(3) {
+    border-top: 1px solid #eeeeee;
+    border-left: 0px solid #eeeeee;
+  }
+
+  .counter .single-counter:nth-child(4) {
+    border-top: 1px solid #eeeeee;
+  }
+}
+
+.counter .single-counter+.single-counter {
+  border-left: 1px solid #eeeeee;
+}
+
+.counter .single-counter h2 {
+  font-size: 30px;
+  color: #71b100;
+  line-height: 24px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 8px;
+}
+
+.counter .single-counter p {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #8f8f8f;
+}
+
+.aboutus-content {
+
+  box-shadow: 4px 4px 8px rgba(11, 11, 11, 0.2);
+}
+
+/* APC */
+.apc {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(31, 31, 31, 0.9)), url("/Images/payonline.jpg");
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.apc h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.apc p {
+  color: #fff;
+}
+
+.apc .apc-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border-radius: 50px;
+  border: 2px solid #80ae77;
+  color: #fff;
+}
+
+.apc .apc-btn:hover {
+  background: #9ac36e;
+}
+
+@media (max-width: 1024px) {
+  .apc {
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 769px) {
+  .apc .apc-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+/* End APC */
+
+
+/* Conference */
+
+.Con {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(31, 31, 31, 0.9)), url("/Images/confer.jpg");
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.Con h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.Con p {
+  color: #fff;
+}
+
+.Con .Con-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border-radius: 50px;
+  border: 2px solid #80ae77;
+  color: #fff;
+}
+
+.Con .Con-btn:hover {
+  background: #9ac36e;
+}
+
+@media (max-width: 1024px) {
+  .Con {
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 769px) {
+  .Con .Con-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+/* End Conference */
+
+
+/* Journal */
+
+.Jou {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(31, 31, 31, 0.9)), url("/Images/main.jpg");
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.Jou h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.Jou p {
+  color: #fff;
+}
+
+.Jou .Jou-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border-radius: 50px;
+  border: 2px solid #80ae77;
+  color: #fff;
+}
+
+.Jou .Jou-btn:hover {
+  background: #9ac36e;
+}
+
+@media (max-width: 1024px) {
+  .Jou {
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 769px) {
+  .Jou .Jou-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+/* End Journal */
+
+
+
+/* JAuthers */
+
+.Auth {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(31, 31, 31, 0.9)), url("/Images/co-auth.jpg");
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.Auth h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.Auth p {
+  color: #fff;
+}
+
+.Auth .Auth-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border-radius: 50px;
+  border: 2px solid #80ae77;
+  color: #fff;
+}
+
+.Auth .Auth-btn:hover {
+  background: #9ac36e;
+}
+
+@media (max-width: 1024px) {
+  .Auth {
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 769px) {
+  .Auth .Auth-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+/* End Authers */
+
+/* Rev */
+.Rev {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(31, 31, 31, 0.9)), url("/Images/Photo.webp");
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.Rev h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.Rev p {
+  color: #fff;
+}
+
+.Rev .Rev-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border-radius: 50px;
+  border: 2px solid #80ae77;
+  color: #fff;
+}
+
+.Rev .Rev-btn:hover {
+  background: #9ac36e;
+}
+
+@media (max-width: 1024px) {
+  .Rev {
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 769px) {
+  .Rev .Rev-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+/* End Rev */
+
+
+
+/* Privacy */
+
+.pri {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(31, 31, 31, 0.9)), url("/Images/download.jpg");
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.pri h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.pri p {
+  color: #fff;
+}
+
+.pri .pri-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border-radius: 50px;
+  border: 2px solid #80ae77;
+  color: #fff;
+}
+
+.pri .pri-btn:hover {
+  background: #9ac36e;
+}
+
+@media (max-width: 1024px) {
+  .pri {
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 769px) {
+  .pri .pri-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+/* End Privacy */
+
+/* Terms  */
+
+.term {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(31, 31, 31, 0.9)), url("/Images/term.jpg");
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.term h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.term p {
+  color: #fff;
+}
+
+.term .term-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border-radius: 50px;
+  border: 2px solid #80ae77;
+  color: #fff;
+}
+
+.term .term-btn:hover {
+  background: #9ac36e;
+}
+
+@media (max-width: 1024px) {
+  .term {
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 769px) {
+  .term .term-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+/* End Terms */
+
+/* Jurnal */
+.jur {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(31, 31, 31, 0.9)), url("/Images/payonline.jpg");
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.jur h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.jur p {
+  color: #fff;
+}
+
+.jur .jur-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border-radius: 50px;
+  border: 2px solid #80ae77;
+  color: #fff;
+}
+
+.jur .jur-btn:hover {
+  background: #9ac36e;
+}
+
+@media (max-width: 1024px) {
+  .jur {
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 769px) {
+  .jur .jur-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+/* End Jurnal */
+
+
+
+/* Aims and Scope */
+
+.Aim {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(31, 31, 31, 0.9)), url("/Images/Aims.jpg");
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.Aim h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.Aim p {
+  color: #fff;
+}
+
+.Aim .Aim-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border-radius: 50px;
+  border: 2px solid #80ae77;
+  color: #fff;
+}
+
+.Aim .Aim-btn:hover {
+  background: #9ac36e;
+}
+
+@media (max-width: 1024px) {
+  .Aim {
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 769px) {
+  .Aim .Aim-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+/* End Aims And Scope */
+
+
+/* Aims and Scope */
+
+.Pol {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(31, 31, 31, 0.9)), url("/Images/Aims.jpg");
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.Pol h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.Pol p {
+  color: #fff;
+}
+
+.Pol .Pol-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border-radius: 50px;
+  border: 2px solid #80ae77;
+  color: #fff;
+}
+
+.Pol .Pol-btn:hover {
+  background: #9ac36e;
+}
+
+@media (max-width: 1024px) {
+  .Pol {
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 769px) {
+  .Pol .Pol-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+/* End Aims And Scope */
+
+
+/* Arc and Scope */
+
+.Arc {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(31, 31, 31, 0.9)), url("/Images/Aims.jpg");
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.Arc h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.Arc p {
+  color: #fff;
+}
+
+.Arc .Arc-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border-radius: 50px;
+  border: 2px solid #80ae77;
+  color: #fff;
+}
+
+.Arc .Arc-btn:hover {
+  background: #9ac36e;
+}
+
+@media (max-width: 1024px) {
+  .Arc {
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 769px) {
+  .Arc .Arc-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+/* End Arc */
