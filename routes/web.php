@@ -66,3 +66,7 @@ Route::get('/PolicyD', function () {
 Route::get('/Archive', function () {
     return view('Archive');
 });
+
+Route::get('/Ethical', function () {
+    return view('Ethical');
+});

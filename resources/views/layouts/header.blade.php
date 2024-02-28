@@ -43,7 +43,7 @@
                         <li><a href="{{'/PolicyD'}}">Policy Details</a></li>
                         <li><a href="{{'/DReviewers'}}">Duties of Reviewers</a></li>
                         <li><a href="{{'/DAuthers'}}">Duties of Authors</a></li>
-                        <li><a href="#">Ethical Guidelines</a></li>
+                        <li><a href="{{'/Ethical'}}">Ethical Guidelines</a></li>
                         <li><a href="{{'/Privacy'}}">Privacy Policy</a></li>
                         <li><a href="{{'/Terms'}}">Terms and Conditions</a></li>
                     </ul>
@@ -88,12 +88,10 @@
                         <!-- Grid column -->
                         <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                             <h6 class="text-uppercase mb-4 font-weight-bold">
-                                Company name
+                                KULDEV PUBLICATION
                             </h6>
                             <p>
-                                Here you can use rows and columns to organize your footer
-                                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                                elit.
+                                KulDev Publication offers the most affordable self-publishing services in India. The KulDev publication is India's professional young writers with worldwide communities.
                             </p>
                         </div>
                         <!-- Grid column -->
@@ -102,18 +100,21 @@
 
                         <!-- Grid column -->
                         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                            <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                            <h6 class="text-uppercase mb-4 font-weight-bold">Our Services</h6>
                             <p>
-                                <a class="text-white">MDBootstrap</a>
+                                <a class="text-white">Web Design</a>
                             </p>
                             <p>
-                                <a class="text-white">MDWordPress</a>
+                                <a class="text-white">Web Development</a>
                             </p>
                             <p>
-                                <a class="text-white">BrandFlow</a>
+                                <a class="text-white">Product Management</a>
                             </p>
                             <p>
-                                <a class="text-white">Bootstrap Angular</a>
+                                <a class="text-white">Marketing</a>
+                            </p>
+                            <p>
+                                <a class="text-white">Graphic Design</a>
                             </p>
                         </div>
                         <!-- Grid column -->
@@ -123,19 +124,22 @@
                         <!-- Grid column -->
                         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                             <h6 class="text-uppercase mb-4 font-weight-bold">
-                                Useful links
+                                Useful Links
                             </h6>
                             <p>
-                                <a class="text-white">Your Account</a>
+                                <a href="{{'/'}}" class="text-white">Home</a>
                             </p>
                             <p>
-                                <a class="text-white">Become an Affiliate</a>
+                                <a href="{{'/AboutJurnal'}}" class="text-white">About Us</a>
                             </p>
                             <p>
-                                <a class="text-white">Shipping Rates</a>
+                                <a class="text-white">Services</a>
                             </p>
                             <p>
-                                <a class="text-white">Help</a>
+                                <a class="{{'/Terms'}}">Terms & Condition</a>
+                            </p>
+                            <p>
+                                <a class="{{'/Privacy'}}">Privacy policy</a>
                             </p>
                         </div>
 
@@ -145,10 +149,13 @@
                         <!-- Grid column -->
                         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                             <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                            <p><i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
-                            <p><i class="fa fa-envelope mr-3"></i> info@gmail.com</p>
-                            <p><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
-                            <p><i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+                            <p><i class="fa fa-home mr-3"></i> Aurangabad- 431001, Maharashtra, India</p>
+                            <p><i class="fa fa-envelope mr-3"></i> kuldevgroup@gmail.com</p>
+                            <p><i class="fa fa-envelope mr-3"></i>kuldevpublication@gmail.com</p>
+                            <p><i class="fa fa-phone mr-3"></i> +91 9021 5632 92</p>
+                            <p><i class="fa fa-phone mr-3"></i> +91 8668 4295 90</p>
+                            <p><i class="fa fa-phone mr-3"></i> +91 9766 0817 11</p>
+
                         </div>
                         <!-- Grid column -->
                     </div>
@@ -165,8 +172,9 @@
                         <div class="col-md-7 col-lg-8 text-center text-md-start">
                             <!-- Copyright -->
                             <div class="p-3">
-                                © 2020 Copyright:
-                                <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                                © 2020 Copyright 
+                                <a class="text-white" href="#">BioNature</a>
+                                All Rights Reserved
                             </div>
                             <!-- Copyright -->
                         </div>
