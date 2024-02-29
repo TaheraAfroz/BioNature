@@ -1,20 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="{{ asset('CSS/Pages.css')}}">
- 
-    <title>Aims and Scope</title>
-</head>
-<body>
-    
+@section('title',"Aims And Scope")    
     @extends('layouts.header')
     @section('webcontent')
 
+<div>
  <!-- ======= Aims and scope Section ======= -->
  <section id="Aim" class="Aim">
     <div class="container">
@@ -40,9 +28,6 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="aboutus-image float-left hidden-sm"><img src="" alt=""></div>
-                </div>
                 <div class="col-md-8 col-sm-6 col-xs-12">
                     <div class="aboutus-content" data-aos="fade-right" data-aos-duration="1000">
 
@@ -69,10 +54,6 @@
         </div>
     </div>
 </div>
+</div>
 
 @endsection
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
-</html>

@@ -1,21 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ethical</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-       <link rel="stylesheet" href="{{ asset('CSS/Pages.css')}}">
-
-    <title>Privacy Policy</title>
-
-</head>
-</head>
-
-<body>
-
+@section('title',"Privacy Policy")
     @extends('layouts.header')
     @section('webcontent')
 
@@ -39,9 +22,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="aboutus-image float-left hidden-sm"><img src="" alt=""></div>
-                    </div>
+                    
                     <div class="col-md-8 col-sm-6 col-xs-12">
                         <div class="aboutus-content" data-aos="fade-right" data-aos-duration="1000">
                             <h1>Privacy <span>Policy</span></h1>
@@ -185,10 +166,3 @@
     <!-- / End Privacy -->
 
 @endsection
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-
-</body>
-
-</html>

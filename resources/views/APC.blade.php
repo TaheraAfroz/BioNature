@@ -1,20 +1,8 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-5">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<!--Footer Link-->
-    <link rel="stylesheet" href="{{ asset('CSS/Pages.css')}}">
-    <title>APC</title>
-
-</head>
-
-<body>
+@section('title',"APC")
     @extends('layouts.header')
     @section('webcontent')
 
+    
 <!-- APC -->
     <section id="apc" class="apc">
         <div class="container">
@@ -35,9 +23,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="aboutus-image float-left hidden-sm"><img src="" alt=""></div>
-                    </div>
                     <div class="col-md-8 col-sm-6 col-xs-12">
                         <div class="aboutus-content">
 
@@ -91,13 +76,6 @@
             </div>
         </div>
     </div>
-
     <!-- / End APC -->
 
 @endsection
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
-
-</html>

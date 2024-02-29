@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="{{ asset('CSS/Pages.css')}}">
- 
-    <title>Policy Details</title>
-</head>
-<body>
-    
+    @section('title',"Policy Details")
     @extends('layouts.header')
     @section('webcontent')
 
@@ -22,7 +8,7 @@
 
             <div class="row" data-aos="zoom-in">
                 <div class="col-lg-9 text-center text-lg-start">
-                    <h3>Bionature,</h3>
+                    <h3>Policy Details</h3>
                     <p>in essence, is the study of life and living organisms</p>
                 </div>
                 <div class="col-lg-3 Pol-btn-container text-center">
@@ -41,17 +27,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="aboutus-image float-left hidden-sm"><img src="" alt=""></div>
-                    </div>
+                    
                     <div class="col-md-8 col-sm-6 col-xs-12">
                         <div class="aboutus-content">
 
-                            <h1>Policy Details:<br>
+                            <h1>Policy <span>Details:</span></h1>
 
-                                <span>Peer Review Process</span> Publication Process for BioNaturePapers
-                            </h1>
-                            <h4>Bionature</h4>
+                            
+                            <h4>Peer Review Process Publication Process for BioNaturePapers
+                            </h4>
                             <p>Receive a paper from potential author. Record the date the paper was received and
                                 givesthe paper a unique code number. Within Two Weeks send a letter to the author
                                 indicating that the paper has arrived and we are processing it. Send the paper to the
@@ -73,61 +57,31 @@
 
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="aboutus-image float-left hidden-sm"><img src="" alt=""></div>
-                    </div>
                     <div class="col-md-8 col-sm-6 col-xs-12">
                         <div class="aboutus-content">
-
                             <h1>Publication <span>Frequency</span></h1>
-                            <h4>Bionature</h4>
                             <p>BioNature is a peer-reviewed journal covering all areas of science and technology,
                                 launched in 2023. It is published 12 Issues (Monthly) by the KulDev Publication.</p>
-
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="aboutus-image float-left hidden-sm"><img src="" alt=""></div>
-                    </div>
+
                     <div class="col-md-8 col-sm-6 col-xs-12">
                         <div class="aboutus-content">
-
                             <h1>Open <span>Access Policy</span></h1>
-                            <h4>Bionature</h4>
                             <p>This journal provides immediate open access to its content on the principle that making
                                 research freely available to the public supports a greater global exchange of knowledge.
                                 (BioNature Publication Ethics and Malpractice)</p>
 
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="aboutus-image float-left hidden-sm"><img src="" alt=""></div>
-                    </div>
+
                     <div class="col-md-8 col-sm-6 col-xs-12">
                         <div class="aboutus-content">
 
                             <h1>Benefits & <span>Features</span></h1>
-                            <h4>Bionature</h4>
-                            <p>Benefits:<br>
+                            <h4>Benefits:</h4>
+                            <p>
                                 1. First response to manuscripts within 2 months of submission.<br>
                                 2. Full access of Contents and Abstracts of BioNature in the website.<br>
                                 3. Timely release of issues and faster deliveries of a PDF file reprints to the
@@ -139,7 +93,7 @@
                                 globe.<br>
                                 6. Speedy Online Manuscripts submission.<br>
                             </p>
-                            <p>Features:<br>
+                            <h4>Features:</h4>
                                 1. Substantive reviews, full papers, focus articles and reports from leading researchers.<br>
                                 2. Reports on original work in Science and Technology.<br>
                                 3. Latest developments in Natural Sciences, Life Sciences, Applied Sciences, etc.<br>
@@ -149,20 +103,11 @@
 
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="aboutus-image float-left hidden-sm"><img src="" alt=""></div>
-                    </div>
+
                     <div class="col-md-8 col-sm-6 col-xs-12">
                         <div class="aboutus-content">
 
                             <h1>BioNature Publication Ethics <span>and Publication Malpractice Statement</span></h1>
-                            <h4>Bionature</h4>
                             <p>BioNature Publication Ethics and Publication Malpractice Statement
                                 (These guidelines are based on existing the Committee on Publication Ethics-COPE)
                                 Publication decisions
@@ -181,15 +126,9 @@
 
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
     </div>
-
     @endsection
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    
-
-</body>
-</html>

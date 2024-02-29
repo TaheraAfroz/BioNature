@@ -1,28 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-   <link rel="stylesheet" href="{{ asset('CSS/Pages.css')}}">
-
-    <title>Jurnal</title>
-</head>
-<body>
-    
+@section('title',"About Journal")
     @extends('layouts.header')
     @section('webcontent')
-    
+
+<div>
 <!-- ======= abbout journals slide img ======= -->
 <section id="jur" class="jur">
     <div class="container">
 
         <div class="row" data-aos="zoom-in">
             <div class="col-lg-9 text-center text-lg-start">
-                <h3>Bionature</h3>
+                <h3>About Journal</h3>
                 <p>Where science meets nature in the pursuit of knowledge.</p>
             </div>
             <div class="col-lg-3 jur-btn-container text-center">
@@ -37,17 +24,12 @@
 <!------  background image ---------->
 <div class="aboutus-area">
 
-    <!------  about journal ---------->
     <div class="container">
-
         <div class="row">
             <div class="col-xs-12">
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="aboutus-image float-left hidden-sm"><img src="" alt=""></div>
-                </div>
+
                 <div class="col-md-8 col-sm-6 col-xs-12">
                     <div class="aboutus-content">
-
                         <h1>About<span> Journal</span></h1>
                         <h4>Bionature</h4>
                         <p>The BioNature as an international journal offers the most affordable self-publishing
@@ -66,12 +48,47 @@
 
                     </div>
                 </div>
+
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                  <div class="aboutus-content">
+
+                     <h1>Miss<span>ion</span></h1>
+                     <p>We are committed to providing premium quality publications that create values for our
+                        peoples. We build diverse team and provide equal growth opportunity for all writers
+                        by
+                        creating positive environment, societal and economic difference for community.</p>
+                  </div>
+              </div>
+
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <div class="aboutus-content">
+                    <h1>Vis<span>ion</span></h1>
+                    <p>To maintained sustainable writing growth through continuous innovation, market
+                        development and public relation while creating long-term value for all writers.</p>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <div class="aboutus-content">
+                    <h1>Val<span>ues</span></h1>
+                    <p>We believed in open communication and understand public needs, offers new
+                        publications
+                        exceed their expectation.
+                        Worldwide Distribution Network
+                        When you publish your article with BioNature, it is published with and gets
+                        available in
+                        near 120+ countries. We are in partnership with largest global journal distribution
+                        networks. Reach to a larger reader base from all over the world with our
+                        distribution
+                        network.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
+
+</div>
+ 
+
 </div>
 
 @endsection
-
-</body>
-</html>

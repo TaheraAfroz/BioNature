@@ -51,8 +51,8 @@ Route::get('/Terms', function () {
 });
 
 
-Route::get('/AboutJurnal', function () {
-    return view('AboutJurnal');
+Route::get('/AboutJournal', function () {
+    return view('AboutJournal');
 });
 
 Route::get('/Aims', function () {
