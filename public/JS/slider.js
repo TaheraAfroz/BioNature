@@ -2,7 +2,7 @@
 wow = new WOW(
     {
       animateClass: 'animated',
-      offset:       100,
+      offset:-5,
       callback:     function(box) {
         console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
       }
@@ -14,3 +14,7 @@ wow = new WOW(
     section.className = 'section--purple wow fadeInDown';
     this.parentNode.insertBefore(section, this);
   };
+
+  $('#myCarousel').carousel({
+    interval: 100 // Change slide every 2 seconds
+  });

@@ -1,5 +1,6 @@
 @section('title',"Aims And Scope")    
     @extends('layouts.header')
+    
     @section('webcontent')
 
 <div>
@@ -9,8 +10,8 @@
 
         <div class="row" data-aos="zoom-in">
             <div class="col-lg-9 text-center text-lg-start">
-                <h3>Bionature</h3>
-                <p>Where science meets nature in the pursuit of knowledge.</p>
+                <h3>Aims & Scope</h3>
+                <p>Bionautre where science meets nature in the pursuit of knowledge.</p>
             </div>
             <div class="col-lg-3 Aim-btn-container text-center">
                 <a class="Aim-btn align-middle" href="submitpaper.php">Submit Paper Online</a>

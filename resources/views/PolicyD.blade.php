@@ -31,10 +31,10 @@
                     <div class="col-md-8 col-sm-6 col-xs-12">
                         <div class="aboutus-content">
 
-                            <h1>Policy <span>Details:</span></h1>
+                            <h1>Policy <span>Details</span></h1>
 
                             
-                            <h4>Peer Review Process Publication Process for BioNaturePapers
+                            <h4>Peer Review Process Publication Process for BioNature Papers
                             </h4>
                             <p>Receive a paper from potential author. Record the date the paper was received and
                                 givesthe paper a unique code number. Within Two Weeks send a letter to the author
@@ -107,7 +107,7 @@
                     <div class="col-md-8 col-sm-6 col-xs-12">
                         <div class="aboutus-content">
 
-                            <h1>BioNature Publication Ethics <span>and Publication Malpractice Statement</span></h1>
+                            <h1>BioNature Publication Ethics &<span><br> Publication Malpractice Statement</span></h1>
                             <p>BioNature Publication Ethics and Publication Malpractice Statement
                                 (These guidelines are based on existing the Committee on Publication Ethics-COPE)
                                 Publication decisions

@@ -28,7 +28,7 @@
                     <div class="col-md-8 col-sm-6 col-xs-12">
                         <div class="aboutus-content" data-aos="fade-right" data-aos-duration="1000">
 
-                            <h1>Duties of<span>Authors</span></h1>
+                            <h1>Duties of<span> Authors</span></h1>
 
                             <h4>Reporting standards</h4>
 

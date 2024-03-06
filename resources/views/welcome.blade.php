@@ -1,9 +1,9 @@
 @section('title',"welcome")
     @extends('layouts.header')
-    @section('webcontent')
+    @section('webcontent')+
 
     <!-- Slider -->
-    <div id="slider-animation" class="carousel slide" data-ride="carousel">
+   <div id="slider-animation" class="carousel slide" data-ride="carousel">
     
         <!-- Indicators -->
         <ul class="carousel-indicators">
@@ -15,26 +15,26 @@
         <!-- The slideshow -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('Images/GettyImages-1394849737-1088x726.jpg')}}" width="1500px" height="650px" alt="Los Angeles">
+                <img src="{{asset('Images/bio copy.jpg')}}" width="1600px" height="500px" alt="">
                 <div class="text-box">
-                    <h3 class="wow slideInRight" data-wow-duration="2s">BIONATURE PAPER PUBLICATION</h3>
-                    <h6 class="wow slideInLeft" data-wow-duration="2s">Discover the wonders of biodiversity in our
+                    <h3 class="wow slideInRight" data-wow-duration="0s">BIONATURE PAPER PUBLICATION</h3>
+                    <h6 class="wow slideInLeft" data-wow-duration="0s">Discover the wonders of biodiversity in our
                         latest research...! </h6>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('Images/4.jpg')}}" width="1500px" height="650px" alt="Chicago">
+                <img src="{{ asset('Images\GettyImages-1394849737-1088x726.jpg')}}" width="1600px" height="500px" alt="">
                 <div class="text-box">
-                    <h3 class="wow slideInUp" data-wow-duration="4s">BIONATURE PAPER PUBLICATION</h3>
-                    <h6 class="wow fadeInDown" data-wow-duration="4s">Unlocking the secrets of ecology through
+                    <h3 class="wow slideInUp" data-wow-duration="1s">BIONATURE PAPER PUBLICATION</h3>
+                    <h6 class="wow fadeInDown" data-wow-duration="1s">Unlocking the secrets of ecology through
                         innovative research </h6>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('Images/6.jpg')}}" width="1500px" height="650px" alt="New York">
+                <img src="{{ asset('Images/ecocentrism web.jpg')}}" width="1600px" height="500px" alt="">
                 <div class="text-box">
-                    <h3 class="wow fadeInUp" data-wow-duration="4s">BIONATURE PAPER PUBLICATION</h3>
-                    <h6 class="wow fadeInUp" data-wow-duration="2s">Unveiling nature's mysteries through
+                    <h3 class="wow fadeInUp" data-wow-duration="1s">BIONATURE PAPER PUBLICATION</h3>
+                    <h6 class="wow fadeInUp" data-wow-duration="1s">Unveiling nature's mysteries through
                         groundbreaking scientific exploration.
                     </h6>
                 </div>
@@ -303,18 +303,7 @@
     <!-- /Authers End-->
     
     <!-- Sponsers -->
-    
-    <div>
-        <div class="container">
-            <div class="owl-carousel logo_active">
-                <img class="img-fluid" src="{{ asset('Images/z.jpg')}}" alt="logo">
-                <img class="img-fluid" src="{{ asset('Images/v.jpg')}}" alt="logo">
-                <img class="img-fluid" src="{{ asset('Images/y.jpg')}}" alt="logo">
-                <img class="img-fluid" src="{{ asset('Images/x.jpg')}}" alt="logo">
-                
-            </div>
-        </div>
-    </div>
+
     
     <!-- /Sponsers End -->
     

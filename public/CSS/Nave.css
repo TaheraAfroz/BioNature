@@ -1,4 +1,5 @@
-/** {
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -61,7 +62,7 @@ header .logo {
     font-size: 15px;
 }
 
-/*header .search-box{
+header .search-box{
     flex: 1;
     position: relative;
 }
@@ -113,7 +114,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-    /*  border-bottom: 2px solid cadetblue;
+ border-bottom: 2px solid cadetblue;
     color: rgb(153, 209, 153);
 }
 
@@ -155,6 +156,10 @@ header .menu {
 
 
 /* Nave bar*/
+
+
+
+
 
 header {
     background: #9ac36ec9;
@@ -206,6 +211,7 @@ header {
 /**
 * Desktop Navigation 
 */
+
 .navbar {
     padding: 0;
 
@@ -442,4 +448,19 @@ header {
   .navbar-mobile .dropdown>.dropdown-active {
     display: block;
   }
-  
+
+  */
+  /*---navbar color--*/
+/*
+  .bg-green {
+    background-color: #3100c6 !important;
+  }
+ 
+  .navbar-nav{
+    padding-right:50px!important;
+  }
+
+  .nav-item {
+    margin-right:10px;
+  }
+    /* Adjust the value as needed */

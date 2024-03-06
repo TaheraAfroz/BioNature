@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row" data-aos="zoom-in">
                 <div class="col-lg-9 text-center text-lg-start">
-                    <h1>Journal Subscription</h1>
+                    <h3>Journal Subscription</h3>
                     <p>Stay ahead in the world of biotechnology and nature with unlimited access to cutting-edge
                         research through our bionature journal subscriptions.</p>
                 </div>
@@ -20,6 +20,7 @@
     </section><!-- End Jou Section -->
 
 
+
     <!------ Include the above in your HEAD tag ---------->
 
     <div class="aboutus-area">
@@ -29,7 +30,7 @@
                     <div class="col-md-8 col-sm-6 col-xs-12">
                         <div class="aboutus-content" data-aos="fade-right" data-aos-duration="1000">
 
-                            <h1>Journal<span>Subscriptions</span></h1>
+                            <h1>Journal<span> Subscriptions</span></h1>
                             <h4>Bionature</h4>
 
                                     <p>BioNatureis provides best journal subscription services on

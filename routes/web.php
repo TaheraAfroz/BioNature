@@ -70,3 +70,11 @@ Route::get('/Archive', function () {
 Route::get('/Ethical', function () {
     return view('Ethical');
 });
+
+Route::get('/Editorial', function () {
+    return view('Editorial');
+});
+
+Route::get('/User', function () {
+    return view('User');
+});

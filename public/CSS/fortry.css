@@ -88,7 +88,7 @@
     overflow: hidden;
     background: #ffffff;
     box-shadow: 1px 1px 5px 1px #CCCCCC;
-    /*   transition: 0.3s; */
+    transition: 0.3s;
 }
 
 .featured-image-container .card {
@@ -239,7 +239,7 @@ h2 {
 
 /* Cta*/
 .cta {
-    background: linear-gradient(rgba(77, 83, 76, 0.541), rgba(50, 54, 50, 0.541)), url('/Images/Leadership.jpg') fixed center center;
+    background: linear-gradient(rgba(77, 83, 76, 0.541), rgba(50, 54, 50, 0.541)), url('/Images/build.jpg') fixed center center;
     background-size: cover;
     padding: 120px 0;
 }
