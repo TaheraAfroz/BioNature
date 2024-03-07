@@ -100,7 +100,7 @@
 </header>
 
 -->
-
+<!---
 <nav class="navbar navbar-expand-lg bg-body-tertiary bg-green">
 
 <div class="container-fluid">
@@ -173,14 +173,15 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">Register</a>
             </li>
-            <!--<li class="nav-item">
+            <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
-            </li>-->
+            </li>
         </ul>
     </div>
 </div>
 
 </nav>
+-->
 
 
 
