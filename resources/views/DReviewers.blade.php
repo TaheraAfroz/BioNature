@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row" data-aos="zoom-in">
                 <div class="col-lg-9 text-center text-lg-start">
-                    <h3>Duties of Reviewers</h3>
+                    <h3>Bionature</h3>
                     <p>
                         Dive into the invaluable role of reviewers, the guardians of quality and credibility in
                         bionature research.</p>

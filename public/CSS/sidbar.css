@@ -1,4 +1,4 @@
-
+css 
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -23,7 +23,7 @@
     background-size: 300% 100%;
 
     border-radius: 50px;
-    -moz-transition: all .4s ease-in-out;
+    moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -31,7 +31,7 @@
 
 .btn-hover:hover {
     background-position: 100% 0;
-    -moz-transition: all .4s ease-in-out;
+    moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -47,6 +47,19 @@
 }
 
 .sidebar{
-    padding-left: 30px;
+    padding: none !important;
 }
 
+.sidebar-items-container{
+    float:right;
+    width: 30%;
+
+}
+@media (max-width:768px){
+    .aboutus-area,
+    .sidebar-items-container{
+        float: none;
+        width: 100%;
+    }
+
+}

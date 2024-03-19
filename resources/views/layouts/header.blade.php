@@ -1,214 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <!--  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"> 
-
-         <!-- Fonts -->
-<!--<link rel="preconnect" href="https://fonts.bunny.net">-->
-      <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-
-
-
-  <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  
-
-
-  
-
-
-      <link rel="stylesheet" href="{{ asset ('CSS/fortry.css') }}">
-    <link rel="stylesheet" href="{{ asset('CSS/Nave.css')}}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ asset('CSS/Pages.css')}}">
-    <link rel="stylesheet" href="{{ asset('CSS/side.css')}}">
-
-
-    <title>Navbar</title>
+    <link rel="stylesheet" href="{{ asset('CSS/sidbar.css')}}">
+    <title>Bionature</title>
 </head>
+
 <body>
-    
-<!-- ======= Header ======= -->
-<!--
-<header id="header" class="fixed-top d-flex align-items-center ">
-    <div class="container d-flex align-items-center justify-content-between">
 
-        <h1 class="logo">Bio Nature
-            <a href="#"><img src="#" alt=""></a>
-        </h1>
+    <!-- ======= Header ======= -->
 
-        <a href="#" class="hamburger" id="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-
-        <nav id="navbar" class="navbar">
-            <ul>
-                <li><a class="nav-link scrollto" href="{{'/'}}"><span><i class="bi bi-house color-red"></i>
-                            Home</span></a></li>
-                <li class="dropdown"><a href="#"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
-                    <ul>
-                        <li><a href="{{'/AboutJournal'}}">About Journal</a></li>
-                        <li><a href="{{'/Aims'}}">Aims and Scope</a></li>
-                        <li><a href="{{'/Editorial'}}">Editorial Advisory Board</a></li>
-
-                    </ul>
-                </li>
-                <li class="dropdown"><a href="#"><span>Publication</span> <i class="bi bi-chevron-down"></i></a>
-                    <ul>
-                        <li><a href="{{'/PolicyD'}}">Policy Details</a></li>
-                        <li><a href="{{'/DReviewers'}}">Duties of Reviewers</a></li>
-                        <li><a href="{{'/DAuthers'}}">Duties of Authors</a></li>
-                        <li><a href="{{'/Ethical'}}">Ethical Guidelines</a></li>
-                        <li><a href="{{'/Privacy'}}">Privacy Policy</a></li>
-                        <li><a href="{{'/Terms'}}">Terms and Conditions</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown"><a href="#"><span>Archive</span> <i class="bi bi-chevron-down"></i></a>
-                    <ul>
-                        <li><a href="{{'/Archive'}}">Archives</a></li>
-                        <li><a href="{{'/Conference'}}">Conference Proceedings</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown"><a href="#"><span>Subscription</span> <i class="bi bi-chevron-down"></i></a>
-                    <ul>
-                        <li><a href="{{'/APC'}}">APC</a></li>
-                        <li><a href="{{'/Journal'}}">Journal Subscriptions</a></li>
-                        <li><a href="{{'/User'}}">Information For User</a></li>
-                    </ul>
-                </li>
-                <li><a class="nav-link scrollto" href="#">Register</a></li>
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-     
-
-    </div>
-</header>
-
--->
-<!---
-<nav class="navbar navbar-expand-lg bg-body-tertiary bg-green">
-
-<div class="container-fluid">
-    <div class="cricle">
-        <img src="Images/lo.jpg" height="50px" width="50px">
-    </div>
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="/">Home</a>
-        </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    About
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="/AboutJournal">About Journal</a></li>
-                    <li><a class="dropdown-item" href="/Aims">Aims and Scopes</a></li>
-                    <li><a class="dropdown-item" href="/Editorial">Editorial Advisory Board</a></li>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Bionature</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{'/'}}">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/AboutJournal">About Journal</a></li>
+                            <li><a class="dropdown-item" href="/Aims">Aims and Scopes</a></li>
+                            <li><a class="dropdown-item" href="/Editorial">Editorial Advisory Board</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Publication
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/PolicyD">Policy Details</a></li>
+                            <li><a class="dropdown-item" href="/DReviewers">Duties of Reviewers</a></li>
+                            <li><a class="dropdown-item" href="/DAuthers">Duties of Authors</a></li>
+                            <li><a class="dropdown-item" href="/Ethical">Ethical Guidelines</a></li>
+                            <li><a class="dropdown-item" href="/Privacy">Privacy Policy</a></li>
+                            <li><a class="dropdown-item" href="/Terms">Terms and Conditions</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Archive
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/Archive">Archives</a></li>
+                            <li><a class="dropdown-item" href="/Conference">Conference Proceedings</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Subscription
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/APC">APC</a></li>
+                            <li><a class="dropdown-item" href="/Journal">Journal Subscriptions</a></li>
+                            <li><a class="dropdown-item" href="/User">Information for user</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{'/contact'}}">Contact</a>
+                    </li>
                 </ul>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Publication
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="/PolicyD">Policy Details</a></li>
-                    <li><a class="dropdown-item" href="/DReviewers">Duties of Reviewers</a></li>
-                    <li><a class="dropdown-item" href="/DAuthers">Duties of Authors</a></li>
-                    <li><a class="dropdown-item" href="/Ethical">Ethical Guidelines</a></li>
-                    <li><a class="dropdown-item" href="/Privacy">Privacy Policy</a></li>
-                    <li><a class="dropdown-item" href="/Terms">Terms and Conditions</a></li>
-                </ul>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Archive
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="/Archive">Archives</a></li>
-                    <li><a class="dropdown-item" href="/Conference">Conference Proceedings</a></li>
-
-                </ul>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Subscription
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="/APC">APC</a></li>
-                    <li><a class="dropdown-item" href="/Journal">Journal Subscriptions</a></li>
-                    <li><a class="dropdown-item" href="/User">Information for user</a></li>
-
-                </ul>
-            </li>
-
-
-
-
-            <li class="nav-item">
-                <a class="nav-link" href="#">Register</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
-        </ul>
-    </div>
-</div>
-
-</nav>
--->
-
-
-
-<!-- End Header -->
-
-@yield('webcontent')
-
- <!-- Sponsers -->
-    
- <div>
-        <div class="container">
-            <div class="owl-carousel logo_active">
-                <img class="img-fluid" src="{{ asset('Images/z.jpg')}}" alt="logo">
-                <img class="img-fluid" src="{{ asset('Images/v.jpg')}}" alt="logo">
-                <img class="img-fluid" src="{{ asset('Images/y.jpg')}}" alt="logo">
-                <img class="img-fluid" src="{{ asset('Images/x.jpg')}}" alt="logo">
-                
             </div>
         </div>
-    </div>
-    
-    <!-- /Sponsers End -->
+    </nav>
 
-<!-- Footer -->
+
+
+    <!-- End Header -->
+    <div class="row">
+        @if(request()->is('/'))
+            @yield('webcontent')
+        @else
+
+        <section id="jur" class="jur">
+        <div class="container">
+
+            <div class="row" data-aos="zoom-in">
+                <div class="col-lg-9 text-center text-lg-start">
+                    <h3>@yield('title')</h3>
+                    <p>@yield('subhead')</p>
+                </div>
+                <div class="col-lg-3 jur-btn-container text-center">
+                    <a class="jur-btn align-middle" href="submitpaper.php">Submit Paper Online</a>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End abbout journals slide img Section -->
+
+        <div class="col-sm-9">
+            @yield('webcontent')
+        </div>
+        <div class="col-sm-3">
+            <aside class="">
+                <div class="d-flex flex-column gap-4 sidebar-items-section">
+                    <div class="sidebar-item">
+                        <button class="btn-hover color-1">Submit Work</button>
+
+                    </div>
+                    <div class="sidebar">
+                        <div class="card border-secondary mb-3" style="max-width: 18rem;">
+                            <div class="card-header bg-transparent border-success">JOURNAL METRICS 2023</div>
+                            <div class="card-body text-secondary">
+
+                                <p class="card-text">
+                                    <ul class="list-group border-radius-0">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Acceptance Rate:
+                                            <span class="badge bg-primary rounded-pill">99%</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Review Speed:
+                                            <span class="badge bg-primary rounded-pill">40 days</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Issue per Year:
+                                            <span class="badge bg-primary rounded-pill">12</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            No. of Volumes:
+                                            <span class="badge bg-primary rounded-pill">4</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            2023 No. of Submissions:
+                                            <span class="badge bg-primary rounded-pill">0</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            No. of Published:
+                                            <span class="badge bg-primary rounded-pill">03</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            No. of Reviewers:
+                                            <span class="badge bg-primary rounded-pill">03</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            No. of Scopus Citations:
+                                            <span class="badge bg-primary rounded-pill">0</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            2023 Percentile (CiteScore):
+                                            <span class="badge bg-primary rounded-pill">0.0</span>
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="card-footer bg-transparent border-secondary">
+                                <p class="mb-0"><em>Last updated: December 15, 2023 <img
+                                            src="https://wjst.wu.ac.th/public/site/images/admin/newdata12.gif"
+                                            alt=""><br></em>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card border-secondary mb-3" style="max-width: 18rem;">
+                            <div class="card-header bg-transparent border-secondary"> PLAGIARISM CHECKER</div>
+                            <div class="card-body text-secondary">
+
+                                <p class="card-text">
+                                    <a href="https://www.ithenticate.com/">
+                                        <img src="ethenticate.png" alt="logo ithrnticate" width="261" height="78"
+                                            class="img-fluid">
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="card-footer bg-transparent border-secondary">
+                                <a href="https://plagiarismcheckerx.com/">
+                                    <img src="plag_checker.png" alt="plagarism checker x" width="261" height="78"
+                                        class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card border-secondary mb-3" style="max-width: 18rem;">
+                            <div class="card-header bg-transparent border-secondary">INFORMATION</div>
+                            <div class="card-body text-secondary">
+
+                                <p class="card-text">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="/information/readers">
+                                                For Readers
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/information/readers">
+                                                For Authors
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/information/readers">
+                                                For Librarians
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card border-secondary mb-3" style="max-width: 18rem;">
+                            <div class="card-header bg-transparent border-secondary">ZooScan Template</div>
+                            <div class="card-body text-secondary">
+
+                                <p class="card-text">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#">
+                                                Word Template
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Latex Template
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+            </aside>
+        </div>
+        @endif
+    </div>
+
+    <!-- Footer -->
 
     <!-- Remove the container if you want to extend the Footer to full width. -->
-    <div>
+    <div class="row">
         <!-- Footer -->
         <footer class="text-center text-lg-start text-white" style="background-color:#000">
             <!-- Grid container -->
@@ -223,7 +262,8 @@
                                 KULDEV PUBLICATION
                             </h6>
                             <p>
-                                KulDev Publication offers the most affordable self-publishing services in India. The KulDev publication is India's professional young writers with worldwide communities.
+                                KulDev Publication offers the most affordable self-publishing services in India. The
+                                KulDev publication is India's professional young writers with worldwide communities.
                             </p>
                         </div>
                         <!-- Grid column -->
@@ -259,19 +299,19 @@
                                 Useful Links
                             </h6>
                             <p>
-                                <a href="{{'/'}}" class="text-white">Home</a>
+                                <a href="/" class="text-white">Home</a>
                             </p>
                             <p>
-                                <a href="{{'/AboutJurnal'}}" class="text-white">About Us</a>
+                                <a href="/AboutJournal" class="text-white">About Us</a>
                             </p>
                             <p>
-                                <a class="text-white">Services</a>
+                                <a href="/AboutJournal" class="text-blue">Services</a>
                             </p>
                             <p>
-                                <a class="{{'/Terms'}}">Terms & Condition</a>
+                                <a href="/Terms" class="text-blue">Terms & Condition</a>
                             </p>
                             <p>
-                                <a class="{{'/Privacy'}}">Privacy policy</a>
+                                <a href="/Privacy" class="text-blue">Privacy policy</a>
                             </p>
                         </div>
 
@@ -283,7 +323,7 @@
                             <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
                             <p><i class="fa fa-home mr-3"></i> Aurangabad- 431001, Maharashtra, India</p>
                             <p><i class="fa fa-envelope mr-3"></i> kuldevgroup@gmail.com</p>
-                            <p><i class="fa fa-envelope mr-3"></i>kuldevpublication@gmail.com</p>
+                            <p><i class="fa fa-envelope mr-3"></i> kuldevpublication@gmail.com</p>
                             <p><i class="fa fa-phone mr-3"></i> +91 9021 5632 92</p>
                             <p><i class="fa fa-phone mr-3"></i> +91 8668 4295 90</p>
                             <p><i class="fa fa-phone mr-3"></i> +91 9766 0817 11</p>
@@ -304,7 +344,7 @@
                         <div class="col-md-7 col-lg-8 text-center text-md-start">
                             <!-- Copyright -->
                             <div class="p-3">
-                                © 2020 Copyright 
+                                © 2020 Copyright
                                 <a class="text-white" href="#">BioNature</a>
                                 All Rights Reserved
                             </div>
@@ -325,11 +365,11 @@
 
                             <!-- Google -->
                             <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button">
-                                <i class="fa fa-google" ></i></a>
+                                <i class="fa fa-google"></i></a>
 
                             <!-- Instagram -->
                             <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button">
-                                <i class="fa fa-instagram" ></i></a>
+                                <i class="fa fa-instagram"></i></a>
                         </div>
                         <!-- Grid column -->
                     </div>
@@ -341,30 +381,14 @@
         <!-- Footer -->
     </div>
     <!-- End of .container -->
-</header>
-    <script src="https://cdn.jsdelivr.net/npm/@floating-ui/core@1.6.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.6.3"></script>
-         <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
-         <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    
-    
-         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+    <script src="ani.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
 
-     <script src="{{ asset('/JS/fortry.js') }}"></script>
- 
-
+    </script>
 </body>
+
 </html>
-
-
-
- 

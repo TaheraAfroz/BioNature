@@ -8,8 +8,8 @@
 
             <div class="row" data-aos="zoom-in">
                 <div class="col-lg-9 text-center text-lg-start">
-                    <h3>Information For Readers</h3>
-                    <p>Biology is the art and science of unraveling nature's exquisite tapestry of life.</p>
+                    <h3>Bionature</h3>
+                    <p>Research is creating new knowledge.</p>
                 </div>
                 <div class="col-lg-3 ct-btn-container text-center">
                     <a class="info-btn align-middle" href="submitpaper.php">Submit Paper Online</a>
@@ -31,7 +31,7 @@
                             <div class="aboutus-image float-left hidden-sm"><img src="" alt=""></div>
                         </div>
                         <div class="col-md-8 col-sm-6 col-xs-12">
-                            <div class="aboutus-content">
+                            <div class="aboutus-content" data-aos="fade-right" data-aos-duration="1000">
 
                                 <h1>Information <span> For </span> Readers</h1>
                                 <h4>Bionature</h4>
@@ -61,7 +61,7 @@
                             <div class="aboutus-image float-left hidden-sm"><img src="" alt=""></div>
                         </div>
                         <div class="col-md-8 col-sm-6 col-xs-12">
-                            <div class="aboutus-content">
+                            <div class="aboutus-content" data-aos="fade-right" data-aos-duration="1000">
 
                                 <h1>Information <span> For</span> Authors</h1>
                                 <h4>Bionature</h4>
@@ -87,7 +87,7 @@
                                 <div class="aboutus-image float-left hidden-sm"><img src="" alt=""></div>
                             </div>
                             <div class="col-md-8 col-sm-6 col-xs-12">
-                                <div class="aboutus-content">
+                                <div class="aboutus-content" data-aos="fade-right" data-aos-duration="1000">
 
                                     <h1>Information <span> For</span> Librarians</h1>
                                     <h4>Bionature</h4>
@@ -115,7 +115,7 @@
                                 <div class="aboutus-image float-left hidden-sm"><img src="" alt=""></div>
                             </div>
                             <div class="col-md-8 col-sm-6 col-xs-12">
-                                <div class="aboutus-content">
+                                <div class="aboutus-content" data-aos="fade-right" data-aos-duration="1000">
 
                                     <h1>Manuscript <span> Preparation </span></h1>
                                     <h4>Bionature</h4>
@@ -127,7 +127,7 @@
                                         page (12 - 18 pages). Manuscripts should be arranged as follows:
 
                                     </p>
-                                    <h2>HIGHLIGHTS</h2>
+                                    <h3>HIGHLIGHTS</h3>
                                     <p>
 
                                         Your highlights are the first thing about your paper that anyone online will
@@ -143,7 +143,7 @@
                                         help to ensure that your article is brought to the community of interested
                                         colleagues.
                                     </p>
-                                    <h2>GRAPHICAL ABSTRACTS</h2>
+                                    <h3>GRAPHICAL ABSTRACTS</h3>
                                     <p>
 
                                         A graphical abstract is a single, concise, pictorial, and visual summary of the
@@ -206,7 +206,7 @@
                                     <div class="aboutus-image float-left hidden-sm"><img src="" alt=""></div>
                                 </div>
                                 <div class="col-md-8 col-sm-6 col-xs-12">
-                                    <div class="aboutus-content">
+                                    <div class="aboutus-content" data-aos="fade-right" data-aos-duration="1000">
 
                                         <h1>ABSTRACT<span></span></h1>
                                         <h4>Bionature</h4>
@@ -243,7 +243,7 @@
                                         <div class="aboutus-image float-left hidden-sm"><img src="" alt=""></div>
                                     </div>
                                     <div class="col-md-8 col-sm-6 col-xs-12">
-                                        <div class="aboutus-content">
+                                        <div class="aboutus-content" data-aos="fade-right" data-aos-duration="1000">
 
                                             <h1>KEYWORDS<span></span></h1>
                                             <h4>Bionature</h4>
@@ -268,7 +268,7 @@
                                         <div class="aboutus-image float-left hidden-sm"><img src="" alt=""></div>
                                     </div>
                                     <div class="col-md-8 col-sm-6 col-xs-12">
-                                        <div class="aboutus-content">
+                                        <div class="aboutus-content" data-aos="fade-right" data-aos-duration="1000">
 
                                             <h1>TEXT<span></span></h1>
                                             <h4>Bionature</h4>
@@ -319,7 +319,7 @@
                                         <div class="aboutus-image float-left hidden-sm"><img src="" alt=""></div>
                                     </div>
                                     <div class="col-md-8 col-sm-6 col-xs-12">
-                                        <div class="aboutus-content">
+                                        <div class="aboutus-content" data-aos="fade-right" data-aos-duration="1000">
 
                                             <h1>Acknowledgements<span></span></h1>
                                             <h4>Bionature</h4>
@@ -344,7 +344,7 @@
                                         <div class="aboutus-image float-left hidden-sm"><img src="" alt=""></div>
                                     </div>
                                     <div class="col-md-8 col-sm-6 col-xs-12">
-                                        <div class="aboutus-content">
+                                        <div class="aboutus-content" data-aos="fade-right" data-aos-duration="1000">
 
                                             <h1>REFERENCES<span></span></h1>
                                             <h4>Bionature</h4>
@@ -373,7 +373,7 @@
                                         <div class="aboutus-image float-left hidden-sm"><img src="" alt=""></div>
                                     </div>
                                     <div class="col-md-8 col-sm-6 col-xs-12">
-                                        <div class="aboutus-content">
+                                        <div class="aboutus-content" data-aos="fade-right" data-aos-duration="1000">
 
                                             <h1>The style of citation is as follows:<span></span></h1>
                                             <h4>Bionature</h4>
@@ -449,7 +449,7 @@
                                         <div class="aboutus-image float-left hidden-sm"><img src="" alt=""></div>
                                     </div>
                                     <div class="col-md-8 col-sm-6 col-xs-12">
-                                        <div class="aboutus-content">
+                                        <div class="aboutus-content" data-aos="fade-right" data-aos-duration="1000">
 
                                             <h1><span></span></h1>
                                             <h4>Bionature</h4>
