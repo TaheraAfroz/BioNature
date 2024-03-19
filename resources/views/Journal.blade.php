@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row" data-aos="zoom-in">
                 <div class="col-lg-9 text-center text-lg-start">
-                    <h3>Journal Subscription</h3>
+                    <h3>Bionature</h3>
                     <p>Stay ahead in the world of biotechnology and nature with unlimited access to cutting-edge
                         research through our bionature journal subscriptions.</p>
                 </div>

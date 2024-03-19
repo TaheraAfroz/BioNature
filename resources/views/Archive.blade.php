@@ -7,9 +7,8 @@
         <div class="container">
             <div class="row" data-aos="zoom-in">
                 <div class="col-lg-9 text-center text-lg-start">
-                    <h3>Bionature archive</h3>
-                    <p>Dive into the treasure trove of knowledge with our bionature website archive, where every page
-                        holds the secrets of scientific exploration. </p>
+                    <h3>Bionature</h3>
+                    <p>Research is creating new knowledge.</p>
                 </div>
                 <div class="col-lg-3 Arc-btn-container text-center">
                     <a class="Arc-btn align-middle" href="submitpaper.php">Submit Paper Online</a>

@@ -8,8 +8,8 @@
 
             <div class="row" data-aos="zoom-in">
                 <div class="col-lg-9 text-center text-lg-start">
-                    <h3>Policy Details</h3>
-                    <p>in essence, is the study of life and living organisms</p>
+                    <h3>Bionature</h3>
+                    <p>Research is creating new knowledge.</p>
                 </div>
                 <div class="col-lg-3 Pol-btn-container text-center">
                     <a class="Pol-btn align-middle" href="submitpaper.php">Submit Paper Online</a>
@@ -29,7 +29,7 @@
                 <div class="col-xs-12">
                     
                     <div class="col-md-8 col-sm-6 col-xs-12">
-                        <div class="aboutus-content">
+                        <div class="aboutus-content" data-aos="fade-right" data-aos-duration="1000">
 
                             <h1>Policy <span>Details</span></h1>
 
@@ -59,7 +59,7 @@
                     </div>
 
                     <div class="col-md-8 col-sm-6 col-xs-12">
-                        <div class="aboutus-content">
+                        <div class="aboutus-content" data-aos="fade-right" data-aos-duration="1000">
                             <h1>Publication <span>Frequency</span></h1>
                             <p>BioNature is a peer-reviewed journal covering all areas of science and technology,
                                 launched in 2023. It is published 12 Issues (Monthly) by the KulDev Publication.</p>
@@ -67,7 +67,7 @@
                     </div>
 
                     <div class="col-md-8 col-sm-6 col-xs-12">
-                        <div class="aboutus-content">
+                        <div class="aboutus-content" data-aos="fade-right" data-aos-duration="1000">
                             <h1>Open <span>Access Policy</span></h1>
                             <p>This journal provides immediate open access to its content on the principle that making
                                 research freely available to the public supports a greater global exchange of knowledge.
@@ -77,7 +77,7 @@
                     </div>
 
                     <div class="col-md-8 col-sm-6 col-xs-12">
-                        <div class="aboutus-content">
+                        <div class="aboutus-content" data-aos="fade-right" data-aos-duration="1000">
 
                             <h1>Benefits & <span>Features</span></h1>
                             <h4>Benefits:</h4>
@@ -105,7 +105,7 @@
                     </div>
 
                     <div class="col-md-8 col-sm-6 col-xs-12">
-                        <div class="aboutus-content">
+                        <div class="aboutus-content"data-aos="fade-right" data-aos-duration="1000">
 
                             <h1>BioNature Publication Ethics &<span><br> Publication Malpractice Statement</span></h1>
                             <p>BioNature Publication Ethics and Publication Malpractice Statement

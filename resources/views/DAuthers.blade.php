@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row" data-aos="zoom-in">
                 <div class="col-lg-9 text-center text-lg-start">
-                    <h3>Duties of Authors</h3>
+                    <h3>Bionature</h3>
                     <p>Authors play a pivotal role in advancing scientific knowledge within bionature by sharing their
                         unique insights and discoveries.</p>
                 </div>

@@ -11,8 +11,8 @@
 
             <div class="row" data-aos="zoom-in">
                 <div class="col-lg-9 text-center text-lg-start">
-                    <h3> Editorial Advisory Board</h3>
-                    <p>Biology is the art and science of unraveling nature's exquisite tapestry of life.</p>
+                    <h3> Bionature</h3>
+                    <p>Research is creating new knowledge.</p>
                 </div>
                 <div class="col-lg-3 ct-btn-container text-center">
                     <a class="edi-btn align-middle" href="submitpaper.php">Submit Paper Online</a>
@@ -24,13 +24,13 @@
 
     <!------ editorial advisory board---------->
 
-    <div class="aboutus-area">
+    <div class="aboutus-area" data-aos="fade-right" data-aos-duration="1000">
         <div class="container">
             <h2 class="text-uppercase text-letter-spacing-xs my-0 text-dark font-weight-bold">
                 Editorial Advisory <span>Board</span><i class="ion-ios-body pl-1 text-primary op-8 z-index-1"></i>
             </h2>
             <hr class="hr-primary w-15 hr-xl ml-0 mb-5">
-            <div class="row mb-5 ">
+            <div class="row mb-5 "data-aos="fade-right" data-aos-duration="1000">
 
                 <div class="col-md-6 order-md-2">
                     <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Personal Trainer 1"
@@ -55,8 +55,8 @@
                             class="fa fa-chevron-right text-xs text-pink"></i>Contact No</a>
                 </div>
             </div>
-            <div class="row mb-5">
-                <div class="col-md-6 text-md-right">
+            <div class="row mb-5"data-aos="fade-right" data-aos-duration="1000">
+                <div class="col-md-6 order-md-2">
                     <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="Personal Trainer 2"
                         class="img-fluid border-white border-w-5 w-50 w-md-80 w-lg-60 rounded-circle">
                 </div>
@@ -79,7 +79,7 @@
                             class="fa fa-chevron-right text-xs text-pink"></i>Contact No</a>
                 </div>
             </div>
-            <div class="row mb-5">
+            <div class="row mb-5"data-aos="fade-right" data-aos-duration="1000">
                 <div class="col-md-6 order-md-2">
                     <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Personal Trainer 3"
                         class="img-fluid border-white border-w-5 w-50 w-md-80 w-lg-60 rounded-circle">
@@ -105,8 +105,8 @@
                             class="fa fa-chevron-right text-xs text-pink"></i> Contact No</a>
                 </div>
             </div>
-            <div class="row mb-5">
-                <div class="col-md-6 text-md-right">
+            <div class="row mb-5"data-aos="fade-right" data-aos-duration="1000">
+                <div class="col-md-6 order-md-2">
                     <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="Personal Trainer 4"
                         class="img-fluid border-white border-w-5 w-50 w-md-80 w-lg-60 rounded-circle">
                 </div>
@@ -129,7 +129,7 @@
                             class="fa fa-chevron-right text-xs text-pink"></i>Contact No</a>
                 </div>
             </div>
-            <div class="row mb-5">
+            <div class="row mb-5"data-aos="fade-right" data-aos-duration="1000">
                 <div class="col-md-6 order-md-2">
                     <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Personal Trainer 3"
                         class="img-fluid border-white border-w-5 w-50 w-md-80 w-lg-60 rounded-circle">
@@ -153,8 +153,8 @@
                             class="fa fa-chevron-right text-xs text-pink"></i>Contact No</a>
                 </div>
             </div>
-            <div class="row mb-5">
-                <div class="col-md-6 text-md-right">
+            <div class="row mb-5"data-aos="fade-right" data-aos-duration="1000">
+                <div class="col-md-6 order-md-2">
                     <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="Personal Trainer 4"
                         class="img-fluid border-white border-w-5 w-50 w-md-80 w-lg-60 rounded-circle">
                 </div>
@@ -176,7 +176,7 @@
                             class="fa fa-chevron-right text-xs text-pink"></i>Contact No</a>
                 </div>
             </div>
-            <div class="row mb-5">
+            <div class="row mb-5"data-aos="fade-right" data-aos-duration="1000">
                 <div class="col-md-6 order-md-2">
                     <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Personal Trainer 3"
                         class="img-fluid border-white border-w-5 w-50 w-md-80 w-lg-60 rounded-circle">
@@ -200,8 +200,8 @@
                             class="fa fa-chevron-right text-xs text-pink"></i> Contact No</a>
                 </div>
             </div>
-            <div class="row mb-5">
-                <div class="col-md-6 text-md-right">
+            <div class="row mb-5"data-aos="fade-right" data-aos-duration="1000">
+                <div class="col-md-6 order-md-2">
                     <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="Personal Trainer 4"
                         class="img-fluid border-white border-w-5 w-50 w-md-80 w-lg-60 rounded-circle">
                 </div>

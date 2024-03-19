@@ -78,3 +78,7 @@ Route::get('/Editorial', function () {
 Route::get('/User', function () {
     return view('User');
 });
+
+Route::get('/contact', function () {
+    return view('contact');
+});

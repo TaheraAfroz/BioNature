@@ -1,30 +1,17 @@
 @section('title',"APC")
+@section('subhead',"Research is to see what everybody....")   
     @extends('layouts.header')
     @section('webcontent')
 
     
 <!-- APC -->
-    <section id="apc" class="apc">
-        <div class="container">
-            <div class="row" data-aos="zoom-in">
-                <div class="col-lg-9 text-center text-lg-start">
-                    <h3>Article Processing Charges (APC)</h3>
-                    <p>Unlocking scientific discoveries comes with a cost: Article Processing Charges (APCs) pave the
-                        way for groundbreaking research in bionature.</p>
-                </div>
-                <div class="col-lg-3 apc-btn-container text-center">
-                    <a class="apc-btn align-middle" href="submitpaper.php">Submit Paper Online</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
+  
     <div class="aboutus-area">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
                     <div class="col-md-8 col-sm-6 col-xs-12">
-                        <div class="aboutus-content">
+                        <div class="aboutus-content" data-aos="fade-right" data-aos-duration="1000">
 
                             <h1>Article Processin <span>Charges (APC)</span></h1>
                             <h4>Bionature</h4>

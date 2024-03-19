@@ -6,8 +6,8 @@
         <div class="container">
             <div class="row" data-aos="zoom-in">
                 <div class="col-lg-9 text-center text-lg-start">
-                    <h3>Ethical Guidelines</h3>
-                    <p></p>
+                    <h3>Bionature</h3>
+                    <p>Research is creating new knowledge.</p>
                 </div>
                 <div class="col-lg-3 Eth-btn-container text-center">
                     <a class="Eth-btn align-middle" href="submitpaper.php">Submit Paper Online</a>

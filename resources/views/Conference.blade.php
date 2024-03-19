@@ -8,7 +8,7 @@
     <div class="container">
         <div class="row" data-aos="zoom-in">
             <div class="col-lg-9 text-center text-lg-start">
-                <h3>Conference Proceedings</h3>
+                <h3>Bionature</h3>
                 <p>Capturing cutting-edge research and innovations, our conference proceedings serve as the beacon
                     of knowledge for paper publication.</p>
             </div>
@@ -27,7 +27,7 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="col-md-8 col-sm-6 col-xs-12">
-                    <div class="aboutus-content">
+                    <div class="aboutus-content" data-aos="fade-right" data-aos-duration="1000">
     
                         <h1>ISSN and <span>Copyright</span></h1>
                         <h4>Bionature</h4>
@@ -41,7 +41,7 @@
                 </div>
     
                 <div class="col-md-8 col-sm-6 col-xs-12">
-                    <div class="aboutus-content">
+                    <div class="aboutus-content" data-aos="fade-right" data-aos-duration="1000">
     
                         <h1>Buy Journals <span>Online</span></h1>
     
