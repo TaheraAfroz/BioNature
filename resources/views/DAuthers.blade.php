@@ -1,22 +1,8 @@
 @section('title',"Duties of Authers")
+@section('subhead',"Research is to see what everybody....")   
     @extends('layouts.header')
     @section('webcontent')
 
-    <!-- ======= Auth Section ======= -->
-    <section id="Auth" class="Auth">
-        <div class="container">
-            <div class="row" data-aos="zoom-in">
-                <div class="col-lg-9 text-center text-lg-start">
-                    <h3>Bionature</h3>
-                    <p>Authors play a pivotal role in advancing scientific knowledge within bionature by sharing their
-                        unique insights and discoveries.</p>
-                </div>
-                <div class="col-lg-3 Auth-btn-container text-center">
-                    <a class="Auth-btn align-middle" href="submitpaper.php">Submit Paper Online</a>
-                </div>
-            </div>
-        </div>
-    </section><!-- End Auth Section -->
 
 
     <!------ Include the above in your HEAD tag ---------->

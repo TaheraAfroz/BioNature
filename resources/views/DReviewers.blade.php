@@ -1,24 +1,9 @@
    @section('title',"Duties of Reviewers")
+   @section('subhead',"Research is to see what everybody....")
    @extends('layouts.header')
    @section('webcontent')
 
 
-    <!-- ======= Rev Section ======= -->
-    <section id="Rev" class="Rev">
-        <div class="container">
-            <div class="row" data-aos="zoom-in">
-                <div class="col-lg-9 text-center text-lg-start">
-                    <h3>Bionature</h3>
-                    <p>
-                        Dive into the invaluable role of reviewers, the guardians of quality and credibility in
-                        bionature research.</p>
-                </div>
-                <div class="col-lg-3 Rev-btn-container text-center">
-                    <a class="Rev-btn align-middle" href="submitpaper.php">Submit Paper Online</a>
-                </div>
-            </div>
-        </div>
-    </section><!-- End Cta Section -->
 
 
     <!------ Include the above in your HEAD tag ---------->

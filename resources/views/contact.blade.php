@@ -1,23 +1,8 @@
 @section('title',"contact")
+@section('subhead',"Research is to see what everybody....")   
     @extends('layouts.header')
     @section('webcontent')
 
-    <!-- ======= Cta Section ======= -->
-    <section id="con" class="con">
-        <div class="container">
-
-            <div class="row" data-aos="zoom-in">
-                <div class="col-lg-9 text-center text-lg-start">
-                    <h3>Contact Us</h3>
-                    <p>Lets get in Touch and Explore</p>
-                </div>
-                <div class="col-lg-3 con-btn-container text-center">
-                    <a class="con-btn align-middle" href="submitpaper.php">Submit Paper Online</a>
-                </div>
-            </div>
-
-        </div>
-    </section><!-- End Cta Section -->
 
 
     <!------ Include the above in your HEAD tag ---------->
