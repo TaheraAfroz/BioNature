@@ -1,24 +1,10 @@
 @section('title',"Conference")
+@section('subhead',"Research is to see what everybody....")   
     @extends('layouts.header')
     @section('webcontent')
 
 
-   <!-- ======= Con Section ======= -->
-   <section id="Con" class="Con">
-    <div class="container">
-        <div class="row" data-aos="zoom-in">
-            <div class="col-lg-9 text-center text-lg-start">
-                <h3>Bionature</h3>
-                <p>Capturing cutting-edge research and innovations, our conference proceedings serve as the beacon
-                    of knowledge for paper publication.</p>
-            </div>
-            <div class="col-lg-3 Con-btn-container text-center">
-                <a class="Con-btn align-middle" href="submitpaper.php">Submit Paper Online</a>
-            </div>
-        </div>
-    </div>
-</section>
-<!--====== End Con Section ========-->
+
 
 
 <!------ Include the above in your HEAD tag ---------->

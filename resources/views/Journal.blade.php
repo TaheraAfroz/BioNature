@@ -1,23 +1,8 @@
 
 @section('title',"Journal")
+@section('subhead',"Research is to see what everybody....")
     @extends('layouts.header')
     @section('webcontent')
-
-    <!-- ======= Jouenal Section ======= -->
-    <section id="Jou" class="Jou">
-        <div class="container">
-            <div class="row" data-aos="zoom-in">
-                <div class="col-lg-9 text-center text-lg-start">
-                    <h3>Bionature</h3>
-                    <p>Stay ahead in the world of biotechnology and nature with unlimited access to cutting-edge
-                        research through our bionature journal subscriptions.</p>
-                </div>
-                <div class="col-lg-3 Jou-btn-container text-center">
-                    <a class="Jou-btn align-middle" href="submitpaper.php">Submit Paper Online</a>
-                </div>
-            </div>
-        </div>
-    </section><!-- End Jou Section -->
 
 
 

@@ -11,7 +11,7 @@
 }
 /*about us*/
 .abou {
-  padding: 50px 0;
+  padding: 50px 0px;
   background: #f9f9f9;
 }
 
@@ -777,7 +777,7 @@
 
 /* AJournal */
 .jur {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(31, 31, 31, 0.9)), url("/Images/aboutjournal.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(31, 31, 31, 0.9)), url("/Images/about.jpg");
   background-size: cover;
   padding: 120px 0;
 }

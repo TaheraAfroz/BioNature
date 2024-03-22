@@ -1,21 +1,9 @@
 @section('title',"Privacy Policy")
+@section('subhead',"Research is to see what everybody....")
     @extends('layouts.header')
     @section('webcontent')
 
-    <section id="pri" class="pri">
-        <div class="container">
-            <div class="row" data-aos="zoom-in">
-                <div class="col-lg-9 text-center text-lg-start">
-                    <h3>Bionature</h3>
-                    <p>Research is creating new knowledge.</p>
-                </div>
-                <div class="col-lg-3 pri-btn-container text-center">
-                    <a class="pri-btn align-middle" href="submitpaper.php">Submit Paper Online</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
+   
 
     <div class="aboutus-area">
         <div class="container">

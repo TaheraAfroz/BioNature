@@ -1,23 +1,9 @@
 @section('title',"User")
+@section('subhead',"Research is to see what everybody....")
     @extends('layouts.header')
     @section('webcontent')
 
-<div>
-<section id="info" class="info">
-        <div class="container">
 
-            <div class="row" data-aos="zoom-in">
-                <div class="col-lg-9 text-center text-lg-start">
-                    <h3>Bionature</h3>
-                    <p>Research is creating new knowledge.</p>
-                </div>
-                <div class="col-lg-3 ct-btn-container text-center">
-                    <a class="info-btn align-middle" href="submitpaper.php">Submit Paper Online</a>
-                </div>
-            </div>
-
-        </div>
-    </section>
 
 
     <div class="aboutus-area">

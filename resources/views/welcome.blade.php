@@ -8,6 +8,7 @@
    
 <!----slider-->
 <!----slider-->
+<div class="container-fluid">
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
 <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -39,10 +40,11 @@
             </div>
         </div>
     </div>
-
+</div>
 
      <!--Slider End -->
     <!---about us-->
+    <div class="container-fluid">
     <div class="container about" data-aos="fade-up">
         <div class="abou-title">
             About Us
@@ -71,11 +73,12 @@
             </div>
         </div>
     </div>
-
+</div>
     <!-- /About Us End -->
     
     <!-- Indexing -->
-    <div class="container index"data-aos="fade-up">
+    <div class="container-fluid">
+    <div class="container index"data-aos="fade-up" class="container-fluid">
     <h2 class="text-center mb-4">Our Indexing</h2>
     <div id="indexCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -116,9 +119,11 @@
         </button>
     </div>
 </div>
+</div>
     <!-- /Indexing End -->
     
      <!-- Leadership -->
+     <div class="container-fluid">
      <h2 class="text-center mb-4 le">Leaderships</h2>
     
      <section id="cta" class="cta">
@@ -141,11 +146,13 @@
     
         </div>
     </section>
+</div>
     <!-- End Leadershiop Section -->
     
   
  
     <!---editorial Borad-->
+    
     <div class="container authors-section" data-aos="fade-up">
         <div class="authors-title">
         Editorial Advisory Board
@@ -240,7 +247,7 @@ Assistant Professor</div>
         <a href="/Editorial"class="btn btn-success"data-aos="fade-up">View all</a>
 </div>
 </div>
-   
+
    
     <!-- /Authers End-->
 <!-- mission vission values -->
@@ -306,7 +313,7 @@ Assistant Professor</div>
 
     
     <!-- Sponsers -->
-
+    <div class="container-fluid">
     <div class="container sponsors spo"data-aos="fade-up">
         <h2 class="text-center mb-4">Sponsors</h2>
         <div id="sponsorCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -335,7 +342,7 @@ Assistant Professor</div>
             </button>
         </div>
     </div>
-
+</div>
  
     <!-- /Sponsers End -->
     @endsection
